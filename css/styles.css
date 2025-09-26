@@ -51,3 +51,25 @@ width: 113px;
 height: 42px;
 
 }
+
+.hero>h1>p{
+
+font-size: 40px;
+line-height: 1.5;
+color: #22343d;
+}
+
+.btnstart{
+    color: #fff;
+   background-color: #02897a; 
+   border-radius: 4px;
+width: 178px;
+height: 53px;
+}
+.btn-watch{
+font-weight: 600;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #02897a;
+
+}
