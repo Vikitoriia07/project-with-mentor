@@ -1,0 +1,53 @@
+body {
+    font-family: "Poppins", sans-serif;
+  --second-family: "Inter", sans-serif;
+    background: #fff;
+}
+
+
+
+.logo-link{
+font-weight: 700;
+font-size: 30px;
+line-height: 0.93;
+color: #173a56;
+text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.nav-link-{
+   font-weight: 700; 
+}
+.nav-link,
+.nav-link-{
+ text-decoration: none;
+line-height: 1.75;
+color: #22343d;
+}
+
+.button-navin{
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+color: #173a56;
+border: 1px solid #bcd0e5;
+border-radius: 4px;
+width: 105px;
+height: 42px;
+}
+.button-navup{
+    background: #02897a;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: 16px;
+color: #fff;
+border-radius: 4px;
+width: 113px;
+height: 42px;
+
+}
