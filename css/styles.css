@@ -4,21 +4,41 @@ body {
     background: #fff;
 }
 
+h1,h2,h3,p {
+    margin: 0;
+}
+ul,li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+ .container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: auto;
+ }
 
-
+/* header */
+header>.container{
+    display: flex;
+}
 .logo-link{
 font-weight: 700;
 font-size: 30px;
 line-height: 0.93;
 color: #173a56;
 text-decoration: none;
+margin: 24px 0;
+padding-left: 0;
 }
 
-ul,
-li {
-    list-style-type: none;
+.nav-list{
+    display: flex;
+ gap: 26px;
+ justify-content: center;
+ margin-right: 76px;
 }
-
 .nav-link-{
    font-weight: 700; 
 }
@@ -39,6 +59,7 @@ border: 1px solid #bcd0e5;
 border-radius: 4px;
 width: 105px;
 height: 42px;
+margin: 19px 21px;
 }
 .button-navup{
     background: #02897a;
@@ -49,9 +70,15 @@ color: #fff;
 border-radius: 4px;
 width: 113px;
 height: 42px;
-
+border: none;
+margin: 19px auto;
+}
+.list-button{
+    margin-left: auto;
+    display: flex;
 }
 
+/* hero section */
 .hero>h1>p{
 
 font-size: 40px;
@@ -65,11 +92,27 @@ color: #22343d;
    border-radius: 4px;
 width: 178px;
 height: 53px;
+border: none;
 }
 .btn-watch{
 font-weight: 600;
 text-decoration: underline;
 text-decoration-skip-ink: none;
 color: #02897a;
+border: none;
+margin-left: 30px;
 
+}
+.button-list{
+    display: flex;
+}
+.hero-content{
+    max-width: 465px;
+flex-direction: row;
+}
+.hero-head{
+    margin-bottom: 18px;
+}
+.hero-img{
+    margin-left: 35px;
 }
