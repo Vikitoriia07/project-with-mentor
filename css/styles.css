@@ -108,7 +108,6 @@ font-size: 40px;
 line-height: 1.5;
 margin-bottom: 18px;
 max-width: 420px;
-margin-bottom: 18px;
 }
 .hero-text{
    font-size: 18px;
@@ -190,3 +189,43 @@ margin-right: auto;
 display: block;
 text-transform: uppercase;
 }
+/* section manage */
+
+.section-manage .container{
+align-items: center;
+justify-content: flex-start;
+}
+
+.container {
+}
+.manage-tittle {
+  margin-top: 45px;
+  margin-bottom: 25px;
+  max-width: 300px;
+  height: 80px;
+}
+
+.manage-text {
+font-size: 16px;
+line-height: 1.625;
+color: #22343d;
+max-width: 486px;
+margin-bottom: 30px;
+}
+.manage-list {
+}
+.manage-item {
+
+}
+.list-tittle{
+font-weight: 600;
+font-size: 16px;
+line-height: 1.625;
+color: #22343d;
+padding-bottom: 12px;
+}
+.list-item{
+    margin-bottom: 25px;
+    width: 486px;
+}
+
