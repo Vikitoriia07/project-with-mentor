@@ -192,11 +192,14 @@ text-transform: uppercase;
 /* section manage */
 
 .section-manage .container{
+display: flex;
 align-items: center;
 justify-content: flex-start;
+flex-wrap: wrap;
 }
 
-.container {
+.container-manage{
+    margin-right: 84px;
 }
 .manage-tittle {
   margin-top: 45px;
@@ -228,4 +231,82 @@ padding-bottom: 12px;
     margin-bottom: 25px;
     width: 486px;
 }
+.support-img{
+    margin-right: 84px;
+}
+  /*pricing-section*/
 
+.pricing-tittle{
+  
+font-size: 34px;
+color: #22343d;
+}
+.pricing-text{
+font-size: 16px;
+line-height: 2.5;
+color: #22343d;
+}
+
+.order-btn{
+    border-radius: 8px;
+width: 139px;
+height: 44px;
+background-color: #02897a;
+color: #fff;
+border: none;
+}
+/*footer-form*/
+
+.footer-form-box {
+}
+.footer-form-text {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+color: #22343d;
+margin-bottom: 30px;
+max-width: 280px;
+}
+.footer-form {
+
+}
+.phone-label{
+position: relative;
+}
+.phone-input{
+   width: 325px;
+height: 48px;
+padding-left: 42px;
+border: 1px solid #bcd0e5;
+border-radius: 4px;
+background: #fff;
+outline: transparent;
+}
+.phone-input::placeholder{
+    font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.75;
+color: #02897a;
+}
+
+.phone-input:focus{
+border-color:
+}
+.phone-icon{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+transform: translateY(-50%);
+fill: #02897a;
+}
+.sign-up-btn {
+    width: 131px;
+height: 39px;
+border-radius: 4px;
+background: #02897a;
+color: #fff;
+border: none;
+display: block;
+margin-top: 25px;
+}

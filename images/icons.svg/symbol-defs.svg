@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-phone" viewBox="0 0 21 32">
+      <path d="M18.424 0H2.909C1.303 0 0 1.344 0 3v26c0 1.656 1.303 3 2.909 3h15.515c1.606 0 2.909-1.344 2.909-3V3c0-1.656-1.303-3-2.909-3zm-4.848 27.944c0 .606-.436 1.056-.97 1.056H8.673c-.479 0-.915-.45-.915-1s.436-1 .97-1h3.879c.533 0 .97.45.97.944zM17.455 24H3.879V4h13.576v20z"/>
+    </symbol>
+  </defs>
+</svg>
